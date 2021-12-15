@@ -107,7 +107,7 @@ a, a:hover {
 
 footer a,
 footer .btn {
-  font-size: 1.2rem;
+  font-size: 1.7vw;
 }
 
 .icons i {
@@ -158,5 +158,20 @@ small {
 
   a[href="#reserveForm"] {
     margin-top: 2rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .nav-item,
+  a[data-target="#loginModal"] {
+    width: 90vw;
+    display: block;
+    text-align: center;
+
+  }
+
+  footer a,
+  footer .btn {
+    font-size: 1.5rem;
   }
 }
